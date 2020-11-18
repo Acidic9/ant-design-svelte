@@ -1,10 +1,11 @@
 <p align="center">
   <a href="#">
     <img width="100" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
-    <img width="50" src="https://about.canva.com/wp-content/themes/canvaabout/img/proLandingPage/banner-wave-3.svg">
+    <img width="50" src="https://quatresous.fr/wp-content/plugins/instagram-slider-widget/assets/image.png">
     <img width="100" src="https://raw.githubusercontent.com/sveltejs/branding/master/svelte-logo.png">
   </a>
 </p>
+
 
 <h1 align="center">Ant Design Svelte</h1>
 
