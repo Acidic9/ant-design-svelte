@@ -19,7 +19,7 @@
 <Title>Introduction</Title>
 
 <div class="fusion-container">
-    <img class="fusion" src="./assets/fusion.png" />
+    <img class="fusion" src="./assets/banner.png" />
 </div>
 
 Eu reprehenderit consectetur eu consequat qui pariatur nisi tempor id. Nisi ullamco laboris reprehenderit ex veniam. Ad tempor cupidatat pariatur officia eiusmod magna voluptate ea occaecat et excepteur. Eu duis Lorem in ipsum dolor consectetur fugiat laboris. Dolore eu eu dolore deserunt. Nisi laborum consequat excepteur consequat cupidatat cupidatat aliqua exercitation.

@@ -27,21 +27,4 @@ export default [{
         typescript({ sourceMap: true }),
         resolve(),
     ]
-}, {
-    input: 'src/index.ts',
-    output: [
-        { file: 'dist/ssr/index.mjs', format: 'es', sourcemap: true },
-        { file: 'dist/ssr/index.js', format: 'umd', name, sourcemap: true }
-    ],
-	plugins: [
-        svelte({
-            generate: 'ssr',
-            preprocess: preprocess({
-                defaults: { script: 'ts' },
-                typescript: { transpileOnly: true }
-            })
-        }),
-        typescript({ sourceMap: true }),
-        resolve(),
-    ]
 }]

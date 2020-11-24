@@ -1,13 +1,14 @@
 <script>
     import { getContext } from 'svelte'
-    export let xs: any | undefined = undefined
-    export let sm: any | undefined = undefined
-    export let md: any | undefined = undefined
-    export let lg: any | undefined = undefined
-    export let xl: any | undefined = undefined
-    export let xxl: any | undefined = undefined
-    export let span: any | undefined = undefined
-    let gutter: number | undefined = getContext('gutter')
+    type Maybe<T> = T | undefined
+    export let xs: Maybe<number> = undefined
+    export let sm: Maybe<number> = undefined
+    export let md: Maybe<number>= undefined
+    export let lg: Maybe<number> = undefined
+    export let xl: Maybe<number>= undefined
+    export let xxl: Maybe<number> = undefined
+    export let span: Maybe<number> = undefined
+    let gutter: Maybe<number> = getContext('gutter')
     let gutterProp = gutter ? `padding-left: ${gutter/2}px; padding-right: ${gutter/2}px;` : false
     $: classes = [
         'ant-col',

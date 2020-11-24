@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tommywalkie/ant-design-svelte/main/demo/assets/fusion.png">
+  <img src="https://raw.githubusercontent.com/tommywalkie/ant-design-svelte/main/demo/assets/banner.png">
 </p>
 
 

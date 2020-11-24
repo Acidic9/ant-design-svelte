@@ -1,6 +1,6 @@
 {
     "extends": "@tsconfig/svelte/tsconfig.json",
-    "include": ["src/**/*", "demo/**/*"],
+    "include": ["src/**/*", "demo/**/*", "tests/**/*"],
     "exclude": [ "node_modules/**/*" ],
     "compilerOptions": {
         "module": "ESNext",
