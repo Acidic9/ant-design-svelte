@@ -1,6 +1,7 @@
 <p align="center">
-  <img width="100" src="https://raw.githubusercontent.com/tommywalkie/ant-design-svelte/main/demo/logo.png">
+  <img src="https://raw.githubusercontent.com/tommywalkie/ant-design-svelte/main/demo/assets/fusion.png">
 </p>
+
 
 
 
