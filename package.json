@@ -2,6 +2,7 @@
   "name": "@tommywalkie/ant-design-svelte",
   "author": "Tom Bazarnik <tommywalkie@gmail.com>",
   "version": "0.0.1",
+  "private": false,
   "license": "MIT",
   "repository": {
     "type" : "git",
