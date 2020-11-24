@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-snowpack-app" />
+    <link rel="stylesheet" href="https://cdn.skypack.dev/antd/dist/antd.css">
+    <title>Ant Design Svelte</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+        // IE11 support for `yrv` (see https://github.com/pateketrueke/yrv#ie11-support)
+        if (!!window.MSInputMethodContext && !!document.documentMode) {
+            document.write('<script src="https://polyfill.io/v3/polyfill.min.js?features=default,Promise,Object.getOwnPropertyDescriptors"><\/script>');
+        }
+    </script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
