@@ -1,6 +1,6 @@
 const swapUrls = async function(content, regexes) {
     regexes.forEach(re => {
-        content = content.replaceAll(re, '$<import> from "https://cdn.skypack.dev/$<module>"')
+        content = content.replace(re, '$<import> from "https://cdn.skypack.dev/$<module>"')
     })
     return content
 }
