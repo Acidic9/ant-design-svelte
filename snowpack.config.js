@@ -3,11 +3,11 @@ module.exports = {
         clean: true
     },
     mount: {
-        public: '/',
+        demo: '/',
         src: '/_dist_',
     },
     plugins: [
-        /* ["./plugins/use-skypack.js", ["react", "react-dom"]] */,
+        ['./plugins/use-skypack.js', ['react', 'react-dom', 'antd']],
         '@snowpack/plugin-svelte',
         '@snowpack/plugin-dotenv',
     ],

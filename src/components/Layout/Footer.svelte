@@ -1,0 +1,1 @@
+<div class={'ant-layout-footer'}><slot></slot></div>

@@ -167,6 +167,17 @@ module.exports = {
 }
 ```
 
+```
+⦿ web_modules/                  size       gzip       brotli   
+    ├─ antd.js                   2592 KB    554.75 KB  397.79 KB  
+    ├─ react-dom.js              1 KB       0.35 KB    0.3 KB     
+    ├─ react.js                  1.57 KB    0.51 KB    0.44 KB
+    ├─ svelte.js                 0.14 KB    0.13 KB    0.1 KB     
+    ├─ svelte/internal.js        0.59 KB    0.35 KB    0.29 KB    
+    ├─ svelte/store.js           0.1 KB     0.1 KB     0.07 KB    
+    └─ yrv.js                    55.64 KB   12.46 KB   10.91 KB
+```
+
 #### Are React and Ant Design of React really needed ?
 
 Theoretically, users need to install React and Ant Design of React only for types and styles, though we [consider using Skypack](#consider-using-skypack) for the development server. Ditching `react` in favor of `@types/react` and telling users to simply retrieve styles directly from CDNs are not an issue, but it is a whole different story for `antd` which has typings from `moment` and packages from [`react-component`](https://github.com/react-component) foundation.

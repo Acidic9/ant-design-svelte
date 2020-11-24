@@ -1,0 +1,157 @@
+<script>
+    import ReactWrapper from '../components/ReactWrapper.svelte'
+    import {Titles} from '../antd/Typography'
+    import {AntdSvelte} from '../'
+    const {Row, Col, Title} = AntdSvelte
+</script>
+
+<Row>
+    <div style="width: 100%;">
+        <h1>Typography</h1>
+        <p>Basic text writing, including headings, body text, lists, and more.</p>
+        <h2>Title component</h2>
+        <Row style="width: 100%;">
+            <Col span={12}>
+                <h3>Svelte</h3>
+                <div>
+                    <Title>h1. Ant Design</Title>
+                    <Title level={2}>h2. Ant Design</Title>
+                    <Title level={3}>h3. Ant Design</Title>
+                    <Title level={4}>h4. Ant Design</Title>
+                    <Title level={5}>h5. Ant Design</Title>
+                </div>
+            </Col>
+            <Col span={12}>
+                <h3>React</h3>
+                <ReactWrapper component={Titles}/>
+            </Col>
+        </Row>
+        <br>
+        <h2>Title component</h2>
+        <Row>
+            <Col span={12}>
+                <h3>Svelte</h3>
+                <div>
+                    <Title>h1. Ant Design</Title>
+                    <Title level={2}>h2. Ant Design</Title>
+                    <Title level={3}>h3. Ant Design</Title>
+                    <Title level={4}>h4. Ant Design</Title>
+                    <Title level={5}>h5. Ant Design</Title>
+                </div>
+            </Col>
+            <Col span={12}>
+                <h3>React</h3>
+                <ReactWrapper component={Titles}/>
+            </Col>
+        </Row>
+        <br>
+        <h2>Title component</h2>
+        <Row>
+            <Col span={12}>
+                <h3>Svelte</h3>
+                <div>
+                    <Title>h1. Ant Design</Title>
+                    <Title level={2}>h2. Ant Design</Title>
+                    <Title level={3}>h3. Ant Design</Title>
+                    <Title level={4}>h4. Ant Design</Title>
+                    <Title level={5}>h5. Ant Design</Title>
+                </div>
+            </Col>
+            <Col span={12}>
+                <h3>React</h3>
+                <ReactWrapper component={Titles}/>
+            </Col>
+        </Row>
+        <br>
+        <h2>Title component</h2>
+        <Row>
+            <Col span={12}>
+                <h3>Svelte</h3>
+                <div>
+                    <Title>h1. Ant Design</Title>
+                    <Title level={2}>h2. Ant Design</Title>
+                    <Title level={3}>h3. Ant Design</Title>
+                    <Title level={4}>h4. Ant Design</Title>
+                    <Title level={5}>h5. Ant Design</Title>
+                </div>
+            </Col>
+            <Col span={12}>
+                <h3>React</h3>
+                <ReactWrapper component={Titles}/>
+            </Col>
+        </Row>
+        <br>
+        <h2>Title component</h2>
+        <Row>
+            <Col span={12}>
+                <h3>Svelte</h3>
+                <div>
+                    <Title>h1. Ant Design</Title>
+                    <Title level={2}>h2. Ant Design</Title>
+                    <Title level={3}>h3. Ant Design</Title>
+                    <Title level={4}>h4. Ant Design</Title>
+                    <Title level={5}>h5. Ant Design</Title>
+                </div>
+            </Col>
+            <Col span={12}>
+                <h3>React</h3>
+                <ReactWrapper component={Titles}/>
+            </Col>
+        </Row>
+        <br>
+        <h2>Title component</h2>
+        <Row>
+            <Col span={12}>
+                <h3>Svelte</h3>
+                <div>
+                    <Title>h1. Ant Design</Title>
+                    <Title level={2}>h2. Ant Design</Title>
+                    <Title level={3}>h3. Ant Design</Title>
+                    <Title level={4}>h4. Ant Design</Title>
+                    <Title level={5}>h5. Ant Design</Title>
+                </div>
+            </Col>
+            <Col span={12}>
+                <h3>React</h3>
+                <ReactWrapper component={Titles}/>
+            </Col>
+        </Row>
+        <br>
+        <h2>Title component</h2>
+        <Row>
+            <Col span={12}>
+                <h3>Svelte</h3>
+                <div>
+                    <Title>h1. Ant Design</Title>
+                    <Title level={2}>h2. Ant Design</Title>
+                    <Title level={3}>h3. Ant Design</Title>
+                    <Title level={4}>h4. Ant Design</Title>
+                    <Title level={5}>h5. Ant Design</Title>
+                </div>
+            </Col>
+            <Col span={12}>
+                <h3>React</h3>
+                <ReactWrapper component={Titles}/>
+            </Col>
+        </Row>
+        <br>
+        <h2>Title component</h2>
+        <Row gutter={12}>
+            <Col span={12}>
+                <h3>Svelte</h3>
+                <div>
+                    <Title>h1. Ant Design</Title>
+                    <Title level={2}>h2. Ant Design</Title>
+                    <Title level={3}>h3. Ant Design</Title>
+                    <Title level={4}>h4. Ant Design</Title>
+                    <Title level={5}>h5. Ant Design</Title>
+                </div>
+            </Col>
+            <Col span={12}>
+                <h3>React</h3>
+                <ReactWrapper component={Titles}/>
+            </Col>
+        </Row>
+        <br>
+    </div>
+</Row>

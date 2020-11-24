@@ -11,6 +11,12 @@
     ].filter(item => item).join(' ')
 </script>
 
+<style>
+    .ant-row {
+        width: 100%;
+    }
+</style>
+
 <div class={classes}>
     <slot></slot>
 </div>

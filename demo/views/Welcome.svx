@@ -1,0 +1,31 @@
+<script>
+  import {AntdSvelte} from '../'
+  const {Title} = AntdSvelte
+</script>
+
+<style>
+  .fusion-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .fusion {
+      width: 100%;
+      max-width: 600px;
+  }
+</style>
+
+<Title>Introduction</Title>
+
+<div class="fusion-container">
+    <img class="fusion" src="./assets/fusion.png" />
+</div>
+
+Eu reprehenderit consectetur eu consequat qui pariatur nisi tempor id. Nisi ullamco laboris reprehenderit ex veniam. Ad tempor cupidatat pariatur officia eiusmod magna voluptate ea occaecat et excepteur. Eu duis Lorem in ipsum dolor consectetur fugiat laboris. Dolore eu eu dolore deserunt. Nisi laborum consequat excepteur consequat cupidatat cupidatat aliqua exercitation.
+
+Quis cupidatat excepteur elit culpa voluptate mollit esse. Enim ea magna mollit incididunt eu exercitation est anim consectetur quis aliquip ipsum mollit. Laborum tempor mollit consequat id consequat officia consequat dolor consequat non.
+
+Eu reprehenderit consectetur eu consequat qui pariatur nisi tempor id. Nisi ullamco laboris reprehenderit ex veniam. Ad tempor cupidatat pariatur officia eiusmod magna voluptate ea occaecat et excepteur. Eu duis Lorem in ipsum dolor consectetur fugiat laboris. Dolore eu eu dolore deserunt. Nisi laborum consequat excepteur consequat cupidatat cupidatat aliqua exercitation.
+
+Quis cupidatat excepteur elit culpa voluptate mollit esse. Enim ea magna mollit incididunt eu exercitation est anim consectetur quis aliquip ipsum mollit. Laborum tempor mollit consequat id consequat officia consequat dolor consequat non.

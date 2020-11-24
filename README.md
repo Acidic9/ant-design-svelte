@@ -1,10 +1,7 @@
 <p align="center">
-  <a href="#">
-    <img width="100" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
-    <img width="50" src="https://quatresous.fr/wp-content/plugins/instagram-slider-widget/assets/image.png">
-    <img width="100" src="https://raw.githubusercontent.com/sveltejs/branding/master/svelte-logo.png">
-  </a>
+  <img width="100" src="https://raw.githubusercontent.com/tommywalkie/ant-design-svelte/main/demo/logo.png">
 </p>
+
 
 
 <h1 align="center">Ant Design Svelte</h1>
@@ -14,13 +11,28 @@
 </div>
 <br>
 
+## Install
+
+Import Ant Design styles from Skypack or any other CDN
+
+```xml
+<link rel="stylesheet" href="https://cdn.skypack.dev/antd/dist/antd.css">
+```
+
+Install Ant Design Svelte from `npm` or `yarn`
+
+```bash
+npm install @tommywalkie/ant-design-svelte
+```
+
+
+
 ## Goals
 
 - Shared [Ant Design of React](https://ant.design/docs/spec/introduce) design resources and type safety
 - Written in TypeScript
 - Server-side rendering support
 - Lightweight and themeable
-- Snowpack based showcase website with side-by-side comparison
 
 <br>
 

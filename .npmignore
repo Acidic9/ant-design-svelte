@@ -1,0 +1,6 @@
+src/
+plugins/
+tests/
+demo/
+package-lock.json
+yarn.lock

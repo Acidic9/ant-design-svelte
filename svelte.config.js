@@ -1,6 +1,15 @@
+const {mdsvex} = require('mdsvex')
+
 module.exports = {
-	preprocess: require("svelte-preprocess")({
-        defaults: { script: "typescript" },
-        typescript: { transpileOnly: true }
-    })
+    extensions: [
+        '.svelte',
+        '.svx'
+    ],
+	preprocess: [
+        mdsvex(),
+        require("svelte-preprocess")({
+            defaults: { script: "typescript" },
+            typescript: { transpileOnly: true }
+        })
+    ]
 }
