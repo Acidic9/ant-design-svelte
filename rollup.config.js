@@ -25,6 +25,6 @@ export default [{
             })
         }),
         typescript({ sourceMap: true }),
-        resolve(),
+        resolve()
     ]
 }]
