@@ -6,7 +6,7 @@ const swapUrls = async function(content, regexes) {
 }
 
 const generateRegex = function(element) {
-    const pattern = `(?<import>import ([a-zA-Z0-9_ \$\{\},\*\n]+)) from \"(?<module>${element})\"`
+    const pattern = `(?<import>import ([a-zA-Z0-9_ \$\{\},\*\n]+)) from [\"\'](?<module>${element})[\"\']`
     return new RegExp(pattern, 'gi')
 }
 
