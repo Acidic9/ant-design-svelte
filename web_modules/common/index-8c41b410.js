@@ -419,6 +419,9 @@ function init(component, options, instance, create_fragment, not_equal, props, d
     }
     set_current_component(parent_component);
 }
+/**
+ * Base class for Svelte components. Used when dev=false.
+ */
 class SvelteComponent {
     $destroy() {
         destroy_component(this, 1);
