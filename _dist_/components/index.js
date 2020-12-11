@@ -1,4 +1,4 @@
-export * from "./Grid.js";
+export * from "./Grid/index.js";
 export * from "./Typography.js";
 export * from "./Layout/index.js";
 export * from "./Menu/index.js";
