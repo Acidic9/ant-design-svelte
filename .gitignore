@@ -10,6 +10,3 @@ dist
 # Lock files
 yarn.lock
 package-lock.json
-
-# Personal shortcut to 'antd' npm package content
-antd
