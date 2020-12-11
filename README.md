@@ -1,3 +1,6 @@
+> ## 🛠 Status: In Development
+> Ant Design Svelte is currently under heavy development. Feedback is always welcome, but API and documentation are not ready yet and can receive large changes.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/tommywalkie/ant-design-svelte/main/demo/assets/banner.png">
 </p>
